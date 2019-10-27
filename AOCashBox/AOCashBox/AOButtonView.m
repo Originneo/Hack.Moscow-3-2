@@ -17,7 +17,7 @@
 
 - (instancetype)initWithTitle:(NSString *)title
 {
-    self = [super init];
+    self = [UIButton buttonWithType:UIButtonTypeSystem];
     if (self) {
         [self setTitle:title forState:UIControlStateNormal];
         
